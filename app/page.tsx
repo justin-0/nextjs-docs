@@ -1,3 +1,9 @@
+import Link from "next/link";
+
 export default function RootPage() {
-  return <h1>Hello this is the root page in Next.js</h1>;
+  return (
+    <>
+      <Link href="/dashboard">Dashboard</Link>
+    </>
+  );
 }
