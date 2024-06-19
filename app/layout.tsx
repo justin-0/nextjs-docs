@@ -15,8 +15,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} min-h-screen`}>
-        <nav className="bg-red-100 text-center">THIS IS THE ROOT NAV</nav>
+      <body className={`${inter.className} min-h-screen bg-red-300`}>
+        <nav className=" text-center">THIS IS THE ROOT NAV</nav>
         {children}
       </body>
     </html>
