@@ -3,9 +3,13 @@ import { wait } from "@/lib/wait";
 
 const suspended = async () => {
   await wait(4000);
-  return "home";
+  return "Home";
 };
 
 export default function SlowComponent() {
-  return <p>{suspended()}</p>;
+  return (
+    <div>
+      <p>{suspended()}</p>;
+    </div>
+  );
 }
