@@ -12,5 +12,10 @@
 - [x] PROJECT ORGANIZATION
 - [x] DYNAMIC ROUTES
 - [x] ROUTE HANDLERS
-- [] MIDDLEWARE
-- [] INTERNATIONALISATION
+- [x] MIDDLEWARE
+
+## DATA FETCHINg
+
+- [] Data Fetching, Caching, and Revalidating
+- [] Server Actions and Mutations
+- [] Patterns and Best Practices
