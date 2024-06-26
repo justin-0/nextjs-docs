@@ -14,8 +14,14 @@
 - [x] ROUTE HANDLERS
 - [x] MIDDLEWARE
 
-## DATA FETCHINg
+## DATA FETCHING
 
 - [x] Data Fetching, Caching, and Revalidating
 - [x] Server Actions and Mutations
-- [] Patterns and Best Practices
+- [x] Patterns and Best Practices
+
+## RENDERING
+
+- [] Server Components
+- [] Client Components
+- [] Composition Patterns
