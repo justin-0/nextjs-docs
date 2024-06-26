@@ -1,15 +1,16 @@
 import Link from "next/link";
 
 export default async function RootPage() {
-  const response = await fetch(
-    `http://localhost:3000/api/greeting/${`hey mum`}/`
-  );
-  const data = await response.text();
-  console.log(data);
-
+  const response = await fetch("https://jsonplaceholder.typicode.com/todos/1", {
+    next: {
+      revalidate: 60,
+    },
+  });
+  const data = await response.json();
   return (
     <>
       <Link href="/dashboard">Dashboard</Link>
+      <p>{data.title}</p>
     </>
   );
 }
