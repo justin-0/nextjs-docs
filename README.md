@@ -16,6 +16,6 @@
 
 ## DATA FETCHINg
 
-- [] Data Fetching, Caching, and Revalidating
-- [] Server Actions and Mutations
+- [x] Data Fetching, Caching, and Revalidating
+- [x] Server Actions and Mutations
 - [] Patterns and Best Practices
