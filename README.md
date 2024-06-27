@@ -22,6 +22,6 @@
 
 ## RENDERING
 
-- [] Server Components
-- [] Client Components
-- [] Composition Patterns
+- [x] Server Components
+- [x] Client Components
+- [x] Composition Patterns
